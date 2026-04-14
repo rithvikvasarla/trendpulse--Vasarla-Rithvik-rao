@@ -3,7 +3,7 @@
 import pandas as pd
 
 # STEP 1: Load JSON file
-file_path = "data/trends_20260414.json"  # change date if needed
+file_path = "data/trends_20260414.json"  
 
 try:
     df = pd.read_json(file_path)
